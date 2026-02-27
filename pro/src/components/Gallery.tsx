@@ -29,7 +29,7 @@ const Gallery: React.FC = () => {
       description: "மனஅழுத்த நிவாரணம் மற்றும் இளைப்பாறுதல்",
     },
     {
-      url: "/holis.jpg",
+      url: "/hols.jpg",
       title: "முழுமையான பராமரிப்பு",
       description: "மனம், உடல், ஆன்மா ஆகியவற்றை இணைக்கும் நல அணுகுமுறை",
     },
