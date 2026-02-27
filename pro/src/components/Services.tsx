@@ -11,12 +11,12 @@ const Services: React.FC = () => {
       color: "from-rose-500 to-pink-500",
     },
     {
-      image: "/Holis.jpg",
-      title: "Holistic Wellness",
-      description:
-        "Comprehensive approach addressing mind, body, and spirit for complete health transformation.",
-      color: "from-pink-500 to-rose-500",
-    },
+  image: "/holis.jpg",
+  title: "Holistic Wellness",
+  description:
+    "Comprehensive approach addressing mind, body, and spirit for complete health transformation.",
+  color: "from-pink-500 to-rose-500",
+}
     {
       image: "/pain.jpg",
       title: "Pain Management",
