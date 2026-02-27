@@ -109,7 +109,7 @@ const Home: React.FC = () => {
               variants={item}
               className="mb-6 inline-block px-6 py-2 bg-white/10 backdrop-blur-lg border border-white/20 rounded-full text-white text-sm tracking-widest"
             >
-              INTERNATIONAL WOMEN'S DAY 2026
+              சர்வதேச மகளிர் தினம் 2026
             </motion.div>
 
             {/* Title */}
@@ -117,9 +117,9 @@ const Home: React.FC = () => {
               variants={item}
               className="text-5xl md:text-7xl font-bold text-white leading-tight"
             >
-              Celebrate
+              RUBY
               <span className="block bg-gradient-to-r from-pink-300 via-purple-300 to-rose-300 bg-clip-text text-transparent">
-                Women's Strength
+                WELLNESS CENTER
               </span>
             </motion.h1>
 
@@ -128,8 +128,8 @@ const Home: React.FC = () => {
               variants={item}
               className="mt-6 text-lg md:text-xl text-pink-100 max-w-xl"
             >
-              Honoring the achievements, courage, and brilliance of women around
-              the world. Empower. Inspire. Transform.
+              உலகம் முழுவதும் பெண்களின் சாதனைகள், தைரியம் மற்றும்
+              திறமையை கௌரவிப்போம். ஊக்குவிப்போம். மாற்றத்தை உருவாக்குவோம்.
             </motion.p>
 
             {/* Buttons */}
@@ -142,7 +142,7 @@ const Home: React.FC = () => {
                 whileTap={{ scale: 0.9 }}
                 className="px-8 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-full shadow-lg"
               >
-                Explore Event
+                நிகழ்வுகளை பார்க்க
               </motion.button>
 
               <motion.button
@@ -150,7 +150,7 @@ const Home: React.FC = () => {
                 whileTap={{ scale: 0.9 }}
                 className="px-8 py-3 border border-white/40 text-white rounded-full backdrop-blur-lg"
               >
-                Learn More
+                மேலும் அறிய
               </motion.button>
             </motion.div>
           </motion.div>
@@ -164,7 +164,7 @@ const Home: React.FC = () => {
           >
             <motion.img
               src="/flower.jpg"
-              alt="Women's Day Flower"
+              alt="மகளிர் தின மலர்"
               className="rounded-3xl shadow-2xl w-[420px] lg:w-[500px] object-cover"
               animate={{ y: [0, -15, 0] }}
               transition={{ duration: 6, repeat: Infinity }}

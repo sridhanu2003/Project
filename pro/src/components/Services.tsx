@@ -5,30 +5,30 @@ const Services: React.FC = () => {
   const services = [
     {
       image: "/Acpun.jpg",
-      title: "Acupuncture Therapy",
+      title: "அக்யுபங்சர் சிகிச்சை",
       description:
-        "Traditional Chinese medicine technique that stimulates specific points to promote healing and pain relief.",
+        "பாரம்பரிய சீன மருத்துவ முறையாகும். உடலில் குறிப்பிட்ட புள்ளிகளை தூண்டி வலி குறைப்பு மற்றும் குணமடைவதை மேம்படுத்துகிறது.",
       color: "from-rose-500 to-pink-500",
     },
     {
-  image: "/holis.jpg",
-  title: "Holistic Wellness",
-  description:
-    "Comprehensive approach addressing mind, body, and spirit for complete health transformation.",
-  color: "from-pink-500 to-rose-500",
-}
+      image: "/holis.jpg",
+      title: "முழுமையான நலன்",
+      description:
+        "மனம், உடல் மற்றும் ஆன்மாவை ஒருங்கிணைத்து முழுமையான ஆரோக்கிய மாற்றத்தை உருவாக்கும் அணுகுமுறை.",
+      color: "from-pink-500 to-rose-500",
+    },
     {
       image: "/pain.jpg",
-      title: "Pain Management",
+      title: "வலி மேலாண்மை",
       description:
-        "Effective non-invasive treatments for chronic pain, migraines, and musculoskeletal conditions.",
+        "நீண்டநாள் வலி, மைக்ரேன் மற்றும் தசை சம்பந்தப்பட்ட பிரச்சினைகளுக்கு பாதுகாப்பான சிகிச்சைகள்.",
       color: "from-rose-600 to-pink-600",
     },
     {
       image: "/natural.jpeg",
-      title: "Natural Healing",
+      title: "இயற்கை சிகிச்சை",
       description:
-        "Herbal medicine and natural therapies to support your body's innate healing abilities.",
+        "மூலிகை மருந்துகள் மற்றும் இயற்கை சிகிச்சைகள் மூலம் உடலின் இயல்பான குணமடைதலை ஆதரிக்கிறது.",
       color: "from-pink-600 to-rose-600",
     },
   ];
@@ -70,17 +70,16 @@ const Services: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Our{" "}
+            எங்கள்{" "}
             <span className="bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent">
-              Services
+              சேவைகள்
             </span>
           </h2>
 
           <div className="w-24 h-1 bg-gradient-to-r from-transparent via-purple-500 to-transparent mx-auto" />
 
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-            Discover our range of holistic treatments designed to restore
-            balance and promote wellness
+            உங்கள் உடல் மற்றும் மன நலனை மேம்படுத்தும் முழுமையான சிகிச்சைகளை கண்டறியுங்கள்
           </p>
         </motion.div>
 
@@ -131,10 +130,10 @@ const Services: React.FC = () => {
         >
           <div className="text-center text-white">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Ready to Begin Your Healing Journey?
+              உங்கள் குணமடைவு பயணத்தை தொடங்க தயாரா?
             </h3>
             <p className="mb-8 opacity-90">
-              Schedule a consultation with our expert practitioners today
+              இன்று எங்கள் நிபுணர்களுடன் ஆலோசனைக்கு நேரம் பதிவு செய்யுங்கள்
             </p>
 
             <motion.button
@@ -147,7 +146,7 @@ const Services: React.FC = () => {
                   ?.scrollIntoView({ behavior: "smooth" })
               }
             >
-              Book an Appointment
+              நேரம் பதிவு செய்யுங்கள்
             </motion.button>
           </div>
         </motion.div>

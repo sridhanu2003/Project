@@ -5,33 +5,33 @@ const Gallery: React.FC = () => {
   const images = [
     {
       url: "/Acpun.jpg",
-      title: "Acupuncture Treatment",
-      description: "Traditional acupuncture therapy",
+      title: "அக்யுபங்சர் சிகிச்சை",
+      description: "பாரம்பரிய அக்யுபங்சர் சிகிச்சை முறைகள்",
     },
     {
       url: "/well.jpg",
-      title: "Wellness Session",
-      description: "Holistic healing environment",
+      title: "நல அமர்வு",
+      description: "முழுமையான நல மற்றும் சிகிச்சை சூழல்",
     },
     {
       url: "/herbal.jpg",
-      title: "Herbal Medicine",
-      description: "Natural healing solutions",
+      title: "மூலிகை மருத்துவம்",
+      description: "இயற்கையான சிகிச்சை தீர்வுகள்",
     },
     {
       url: "/relif.jpg",
-      title: "Pain Management",
-      description: "Effective pain relief techniques",
+      title: "வலி மேலாண்மை",
+      description: "வலியை குறைக்கும் சிறந்த முறைகள்",
     },
     {
       url: "/relaxation.jpg",
-      title: "Relaxation Therapy",
-      description: "Stress relief and relaxation",
+      title: "இளைப்பாறும் சிகிச்சை",
+      description: "மனஅழுத்த நிவாரணம் மற்றும் இளைப்பாறுதல்",
     },
     {
       url: "/holis.jpg",
-      title: "Holistic Care",
-      description: "Complete wellness approach",
+      title: "முழுமையான பராமரிப்பு",
+      description: "மனம், உடல், ஆன்மா ஆகியவற்றை இணைக்கும் நல அணுகுமுறை",
     },
   ];
 
@@ -68,14 +68,14 @@ const Gallery: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Our{" "}
+            எங்கள்{" "}
             <span className="bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
-              Gallery
+              காட்சியகம்
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-transparent via-rose-500 to-transparent mx-auto" />
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-            Explore our serene facilities and witness the art of healing
+            எங்கள் அமைதியான சூழலை காணவும் மற்றும் சிகிச்சையின் அழகை அனுபவிக்கவும்
           </p>
         </motion.div>
 
@@ -103,8 +103,12 @@ const Gallery: React.FC = () => {
               />
 
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-                <h3 className="text-white text-xl font-bold mb-2">{image.title}</h3>
-                <p className="text-rose-100 text-sm">{image.description}</p>
+                <h3 className="text-white text-xl font-bold mb-2">
+                  {image.title}
+                </h3>
+                <p className="text-rose-100 text-sm">
+                  {image.description}
+                </p>
               </div>
             </motion.div>
           ))}

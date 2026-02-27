@@ -5,20 +5,20 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
-    { name: "Home", href: "#" },
-    { name: "About Us", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Gallery", href: "#gallery" },
-    { name: "Contact", href: "#contact" },
+    { name: "முகப்பு", href: "#" },
+    { name: "எங்களை பற்றி", href: "#about" },
+    { name: "சேவைகள்", href: "#services" },
+    { name: "காட்சியகம்", href: "#gallery" },
+    { name: "தொடர்பு", href: "#contact" },
   ];
 
   const services = [
-    "Acupuncture Therapy",
-    "Holistic Wellness",
-    "Pain Management",
-    "Natural Healing",
-    "Stress Relief",
-    "Wellness Consultation",
+    "அக்யுபங்சர் சிகிச்சை",
+    "முழுமையான நல சேவை",
+    "வலி மேலாண்மை",
+    "இயற்கை சிகிச்சை",
+    "மனஅழுத்த நிவாரணம்",
+    "நல ஆலோசனை",
   ];
 
   const scrollToSection = (href: string) => {
@@ -48,23 +48,23 @@ const Footer: React.FC = () => {
                 <span className="text-white font-bold text-lg">RW</span>
               </div>
               <div>
-                <div className="font-bold text-lg">RUBY WELLNESS</div>
+                <div className="font-bold text-lg">ரூபி வெல்னஸ்</div>
                 <div className="text-xs tracking-wider text-rose-300">
-                  CENTER
+                  மையம்
                 </div>
               </div>
             </motion.div>
 
             <p className="text-gray-300 leading-relaxed">
-              Your trusted partner in holistic healing and wellness.
-              Experience the transformative power of acupuncture and natural
-              therapies.
+              முழுமையான நலமும் இயற்கை சிகிச்சையும் வழங்கும் உங்கள் நம்பகமான
+              இணைவர். அக்யுபங்சர் மற்றும் இயற்கை மருத்துவத்தின் மூலம்
+              ஆரோக்கியமான வாழ்க்கையை அனுபவிக்குங்கள்.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-bold mb-6">Quick Links</h3>
+            <h3 className="text-xl font-bold mb-6">விரைவு இணைப்புகள்</h3>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.name}>
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-xl font-bold mb-6">Our Services</h3>
+            <h3 className="text-xl font-bold mb-6">எங்கள் சேவைகள்</h3>
             <ul className="space-y-3">
               {services.map((service) => (
                 <li key={service}>
@@ -94,14 +94,14 @@ const Footer: React.FC = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-bold mb-6">Contact Us</h3>
+            <h3 className="text-xl font-bold mb-6">தொடர்பு கொள்ள</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <span className="text-rose-400 text-xl">📍</span>
                 <span className="text-gray-300">
-                  Gandhi Nagar,<br />
-                  Gobichettipalayam,<br />
-                  Tamil Nadu, India
+                  காந்தி நகர்,<br />
+                  கோபிச்செட்டிபாளையம்,<br />
+                  தமிழ்நாடு, இந்தியா
                 </span>
               </li>
 
@@ -117,7 +117,7 @@ const Footer: React.FC = () => {
 
               <li className="flex items-center gap-3">
                 <span className="text-rose-400 text-xl">🕐</span>
-                <span className="text-gray-300">Mon-Sat: 9AM-7PM</span>
+                <span className="text-gray-300">திங்கள் - சனி: காலை 9 - மாலை 7</span>
               </li>
             </ul>
           </div>
@@ -129,10 +129,10 @@ const Footer: React.FC = () => {
           whileHover={{ scale: 1.01 }}
         >
           <h3 className="text-2xl font-bold mb-4">
-            Visit Our Official Website
+            எங்கள் அதிகாரப்பூர்வ இணையதளத்தை பார்வையிடுங்கள்
           </h3>
           <p className="text-rose-100 mb-6">
-            Explore more about our services, treatments, and wellness programs
+            எங்கள் சேவைகள், சிகிச்சைகள் மற்றும் நல திட்டங்களை பற்றி மேலும் அறியுங்கள்
           </p>
 
           <motion.button
@@ -146,7 +146,7 @@ const Footer: React.FC = () => {
               )
             }
           >
-            Visit JustDial Profile
+            JustDial ப்ரொஃபைலை பாருங்கள்
           </motion.button>
         </motion.div>
       </div>
@@ -156,15 +156,15 @@ const Footer: React.FC = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Ruby Wellness Center. All rights reserved.
+              © {currentYear} ரூபி வெல்னஸ் மையம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.
             </p>
 
             <div className="flex gap-6 text-sm text-gray-400">
               <button className="hover:text-rose-400 transition-colors">
-                Privacy Policy
+                தனியுரிமைக் கொள்கை
               </button>
               <button className="hover:text-rose-400 transition-colors">
-                Terms of Service
+                சேவை விதிமுறைகள்
               </button>
             </div>
           </div>

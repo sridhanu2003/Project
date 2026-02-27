@@ -15,11 +15,11 @@ const Header: React.FC = () => {
   }, []);
 
   const navItems = [
-    { name: "Home", href: "#" },
-    { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Gallery", href: "#gallery" },
-    { name: "Contact", href: "#contact" },
+    { name: "முகப்பு", href: "#" },
+    { name: "எங்களை பற்றி", href: "#about" },
+    { name: "சேவைகள்", href: "#services" },
+    { name: "காட்சியகம்", href: "#gallery" },
+    { name: "தொடர்பு", href: "#contact" },
   ];
 
   const scrollToSection = (href: string) => {
@@ -38,10 +38,7 @@ const Header: React.FC = () => {
     <>
       <motion.header
         className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-md transition-all duration-300
-        ${isScrolled
-            ? "bg-white shadow-lg"
-            : "bg-white/90 shadow-md"
-        }`}
+        ${isScrolled ? "bg-white shadow-lg" : "bg-white/90 shadow-md"}`}
         initial={{ y: -80 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.4 }}
@@ -62,9 +59,9 @@ const Header: React.FC = () => {
               />
 
               <div className="hidden md:block text-gray-800">
-                <div className="font-bold text-lg">RUBY WELLNESS</div>
+                <div className="font-bold text-lg">Ruby Wellness</div>
                 <div className="text-xs tracking-wider text-rose-500">
-                  CENTER
+                  Center
                 </div>
               </div>
             </motion.div>
@@ -96,7 +93,7 @@ const Header: React.FC = () => {
                 )
               }
             >
-              Visit Website
+              இணையதளத்தை பார்வையிட
             </motion.button>
 
             {/* Mobile Menu Button */}
@@ -143,7 +140,7 @@ const Header: React.FC = () => {
                 )
               }
             >
-              Visit Website
+              இணையதளத்தை பார்வையிட
             </button>
           </nav>
         </motion.div>
