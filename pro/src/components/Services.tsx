@@ -1,37 +1,31 @@
 import React from "react";
 import { motion, Variants } from "framer-motion";
 
-/* Import your images */
-import Acpun from "../assets/Acpun.jpg";
-import Holis from "../assets/Holis.jpg";
-import Pain from "../assets/pain.jpg";
-import Natural from "../assets/natural.jpeg";
-
 const Services: React.FC = () => {
   const services = [
     {
-      image: Acpun,
+      image: "/Acpun.jpg",
       title: "Acupuncture Therapy",
       description:
         "Traditional Chinese medicine technique that stimulates specific points to promote healing and pain relief.",
       color: "from-rose-500 to-pink-500",
     },
     {
-      image: Holis,
+      image: "/Holis.jpg",
       title: "Holistic Wellness",
       description:
         "Comprehensive approach addressing mind, body, and spirit for complete health transformation.",
       color: "from-pink-500 to-rose-500",
     },
     {
-      image: Pain,
+      image: "/pain.jpg",
       title: "Pain Management",
       description:
         "Effective non-invasive treatments for chronic pain, migraines, and musculoskeletal conditions.",
       color: "from-rose-600 to-pink-600",
     },
     {
-      image: Natural,
+      image: "/natural.jpeg",
       title: "Natural Healing",
       description:
         "Herbal medicine and natural therapies to support your body's innate healing abilities.",

@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { motion, Variants, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Flower from "../assets/flower.jpg";
 
 const Home: React.FC = () => {
   const controls = useAnimation();
@@ -164,7 +163,7 @@ const Home: React.FC = () => {
             className="flex justify-center"
           >
             <motion.img
-              src={Flower}
+              src="/flower.jpg"
               alt="Women's Day Flower"
               className="rounded-3xl shadow-2xl w-[420px] lg:w-[500px] object-cover"
               animate={{ y: [0, -15, 0] }}
