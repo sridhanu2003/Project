@@ -37,20 +37,26 @@ const Footer: React.FC = () => {
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
-          
+
           {/* Company Info */}
           <div>
             <motion.div
               className="flex items-center gap-3 mb-6"
               whileHover={{ scale: 1.05 }}
             >
-              <div className="w-12 h-12 bg-gradient-to-br from-rose-500 to-pink-500 rounded-full flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-lg">RW</span>
+              {/* Logo Image */}
+              <div className="w-14 h-14 rounded-full overflow-hidden shadow-lg border border-rose-400/40">
+                <img
+                  src="/logo.jpg"
+                  alt="Ruby Wellness Logo"
+                  className="w-full h-full object-cover"
+                />
               </div>
+
               <div>
-                <div className="font-bold text-lg">ரூபி வெல்னஸ்</div>
+                <div className="font-bold text-lg">RUBY WELLNESS</div>
                 <div className="text-xs tracking-wider text-rose-300">
-                  மையம்
+                  CENTER
                 </div>
               </div>
             </motion.div>
@@ -117,7 +123,9 @@ const Footer: React.FC = () => {
 
               <li className="flex items-center gap-3">
                 <span className="text-rose-400 text-xl">🕐</span>
-                <span className="text-gray-300">திங்கள் - சனி: காலை 9 - மாலை 7</span>
+                <span className="text-gray-300">
+                  திங்கள் - சனி: காலை 9 - மாலை 7
+                </span>
               </li>
             </ul>
           </div>
@@ -132,7 +140,8 @@ const Footer: React.FC = () => {
             எங்கள் அதிகாரப்பூர்வ இணையதளத்தை பார்வையிடுங்கள்
           </h3>
           <p className="text-rose-100 mb-6">
-            எங்கள் சேவைகள், சிகிச்சைகள் மற்றும் நல திட்டங்களை பற்றி மேலும் அறியுங்கள்
+            எங்கள் சேவைகள், சிகிச்சைகள் மற்றும் நல திட்டங்களை பற்றி மேலும்
+            அறியுங்கள்
           </p>
 
           <motion.button

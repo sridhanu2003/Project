@@ -11,7 +11,7 @@ const Services: React.FC = () => {
       color: "from-rose-500 to-pink-500",
     },
     {
-      image: "/holis.jpg",
+      image: "/hols.jpg",
       title: "முழுமையான நலன்",
       description:
         "மனம், உடல் மற்றும் ஆன்மாவை ஒருங்கிணைத்து முழுமையான ஆரோக்கிய மாற்றத்தை உருவாக்கும் அணுகுமுறை.",
